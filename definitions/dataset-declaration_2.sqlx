@@ -1,0 +1,5 @@
+config {
+  type: "declaration",
+  database: "dataform-migration",  
+  schema: "new_ds"
+}
