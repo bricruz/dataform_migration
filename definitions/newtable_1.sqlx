@@ -2,5 +2,5 @@ config { type: "table" }
 SELECT 
     tiffprices.Time as time, 
     tiffprices.Last as last
-FROM  ${ref("pricehistorytable_1")} tiff_prices
+FROM  dataform-migration.pricehistorydataset_1.pricehistorytable_1 tiff_prices
 GROUP BY 1
