@@ -10,5 +10,5 @@ config {
 
 -- The rest of a SQLX file contains your SELECT statement used to create the table.
 
-SELECT Time, Last, High, Volume
+SELECT Volume, Change
 FROM dataform-migration.pricehistorydataset_1.pricehistorytable_1
