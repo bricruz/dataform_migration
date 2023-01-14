@@ -1,8 +1,5 @@
 config { 
     type: "table",
  }
-SELECT 
-    Time as time, 
-    Last as last
-FROM  ${ref("first_view")}
-GROUP BY 1, 2
+SELECT *
+FROM  ${ref("second_view")}
