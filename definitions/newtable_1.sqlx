@@ -6,4 +6,4 @@ SELECT
     tiff_prices.Time as time, 
     tiff_prices.Last as last
 FROM  dataform-migration.pricehistorydataset_1.pricehistorytable_1 tiff_prices
-GROUP BY 1
+GROUP BY 1, 2
