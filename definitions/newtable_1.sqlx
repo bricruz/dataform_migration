@@ -1,0 +1,6 @@
+config { type: "table" }
+SELECT 
+    tiffprices.Time as time, 
+    tiffprices.Last as last
+FROM  ${ref("pricehistorytable_1")} tiff_prices
+GROUP BY 1
