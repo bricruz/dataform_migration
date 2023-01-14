@@ -4,5 +4,5 @@ config {
 SELECT 
     Time as time, 
     Last as last
-FROM  dataform-migration.pricehistorydataset_1.pricehistorytable_1 
+FROM  ${ref("first_view")}
 GROUP BY 1, 2
