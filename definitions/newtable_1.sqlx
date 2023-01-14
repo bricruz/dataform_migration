@@ -1,5 +1,5 @@
 config { 
     type: "table",
  }
-SELECT *
-FROM  ${ref("second_view")}
+SELECT Volume
+FROM dataform-migration.pricehistorydataset_1.pricehistorytable_1
