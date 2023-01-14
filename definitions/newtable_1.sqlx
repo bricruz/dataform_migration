@@ -1,5 +1,6 @@
 config { 
     type: "table",
+    schema: "new_ds",
     name: "new_table" }
 SELECT 
     tiffprices.Time as time, 
