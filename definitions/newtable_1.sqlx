@@ -1,4 +1,7 @@
-config { type: "table" }
+config { 
+    type: "table",
+    schema: "new_ds",
+    name: "new_table" }
 SELECT 
     tiffprices.Time as time, 
     tiffprices.Last as last
